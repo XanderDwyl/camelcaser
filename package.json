@@ -1,0 +1,32 @@
+{
+  "name": "camelcaser",
+  "version": "0.0.1",
+  "description": "a simple module to capitalize first letter of your filename",
+  "bin": {
+    "camelcaser": "./bin/camelcaser"
+  },
+  "dependencies": {
+    "colors": "~0.6.2",
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/XanderDwyl/camelcaser"
+  },
+  "keywords": [
+    "camelcase",
+    "filename",
+    "uppercase",
+    "lowercase",
+    "directory"
+  ],
+  "author": "Alexjander Bacalso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XanderDwyl/camelcaser/issues"
+  }
+}
