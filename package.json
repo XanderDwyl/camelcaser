@@ -1,6 +1,6 @@
 {
   "name": "camelcaser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a simple module to capitalize first letter of your filename",
   "bin": {
     "camelcaser": "./bin/camelcaser"
