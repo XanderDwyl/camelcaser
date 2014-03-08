@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "colors": "~0.6.2",
-    "optimist": "~0.6.0"
+    "yargs": "~1.2.1"
   },
   "devDependencies": {},
   "scripts": {

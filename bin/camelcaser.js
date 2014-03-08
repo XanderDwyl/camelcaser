@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 'use strict';
-var fs       = require('fs'),
-    path     = require('path'),
-    colors   = require('colors'),
-    optimist = require('optimist'),
+var fs     = require('fs'),
+    path   = require('path'),
+    colors = require('colors'),
+    yargs  = require('yargs'),
 
-    argv = optimist
+    argv = yargs
 		.usage('\nUsage: ' + process.argv[1].split('/').pop() + ' [options]')
 		.alias('d', 'dir')
 		.describe('d', 'specified path to capitalize first letter of the filenames')
@@ -101,7 +101,7 @@ getFileNames = function( dir )  {
 };
 
 if (argv.h || !argv.d) {
-    console.log(optimist.help());
+    console.log(yargs.help());
     return;
 }
 
